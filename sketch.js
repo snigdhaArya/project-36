@@ -4,7 +4,7 @@ var addFood;
 var foodObj;
 
 //create feed and lastFed variable here
-var fedtime,lastfed;
+var fedtime,lastFeed;
 var feed ;
 
 function preload(){
@@ -49,7 +49,7 @@ function draw() {
     //show time in PM format when lastfeed is greater that 12
     text("Last Feed:"+ fedtime%12+"PM" ,350,30);
   }
-  else if(lastfeed==0){
+  else if(lastFeed==0){
     text("Last Feed:12 AM",350,30);
   }
   else{
